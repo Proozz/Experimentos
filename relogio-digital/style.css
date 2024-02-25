@@ -1,0 +1,49 @@
+body{
+   background-color: #040406;
+   color: rgb(255, 223, 223);
+   align-items: center;
+   font: poppin;
+  
+
+}
+
+header{
+    text-align: center;
+    position: relative;
+    transform: translateY(220px);
+    font-size: 35px;
+
+}
+
+section{
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    position: relative;
+    transform: translateY(215px);
+
+}
+
+div{
+    align-items: center;
+    padding: 1px;
+    background: rgb(61, 47, 47);
+    width: 500px;
+}
+
+footer{
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    transform: translateY(390px);
+
+}
+
+img{
+
+    width: 15px;
+    height: 15px;
+
+}
+
