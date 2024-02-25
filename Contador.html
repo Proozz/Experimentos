@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEITO</title>
+</head>
+
+<style>
+
+body{
+    
+     font-size: 80px;
+     text-align: center;
+     position: relative;
+     transform: translateY(55%); 
+     background-color: rgb(196, 176, 215);
+       
+}
+
+div.contador{
+
+     border: 5px solid rgb(64, 13, 13);
+     border-radius: 100px;
+     background-color: rgb(178, 127, 127);
+}
+
+button{
+
+     cursor: pointer;
+     width: 10rem;
+     height: 40px;
+     border-radius: 15cap;
+     background-color: rgb(194, 194, 255);
+     font-size: 1rem;
+     border-color: rgb(0, 0, 0);
+     box-shadow: 0 1px 8px 0 black;
+    
+}
+
+</style>
+
+<body>
+
+    <div class="contador">
+    <div id="counter">
+       <span id="zero" class="zero">0</span>
+     </div>
+     <div class="button">
+   
+
+     <button id="descrementar1" class="count-button">descrementar</button>
+     
+     <button id="limpar3" class="count-button">limpar</button>
+
+     <button id="incrementar3" class="count-button">incrementar</button>
+
+      
+
+    </div>
+ </div>
+
+<script>
+    
+     const zero = document.getElementById('zero')
+     const incrementar = document.getElementById('incrementar3')
+     const descrementar = document.getElementById('descrementar1')
+     const limpar = document.getElementById('limpar3')
+    
+   
+    const value = () => {    
+           zero.innerHTML = count;
+
+    };
+
+    let count = 0;
+    let intervalo = 0;
+
+    incrementar.addEventListener('mousedown', () => {
+          intervalo = setInterval(() => {
+            count += 1;
+            value();
+            
+          }, 50);
+    })
+
+    descrementar.addEventListener('mousedown', () => {
+          intervalo = setInterval(() => {
+            count -= 1;
+            value();
+            
+          }, 50);
+    })
+   
+    limpar.addEventListener('click', () => {
+            count = 0;
+            value();
+    });
+
+     document.addEventListener('mouseup', () => clearInterval(intervalo))
+   
+
+
+
+
+</script>
+</body>
+</html>
