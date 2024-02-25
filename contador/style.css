@@ -1,0 +1,29 @@
+body{
+    
+    font-size: 80px;
+    text-align: center;
+    position: relative;
+    transform: translateY(55%); 
+    background-color: rgb(196, 176, 215);
+      
+}
+
+div.contador{
+
+    border: 5px solid rgb(64, 13, 13);
+    border-radius: 100px;
+    background-color: rgb(178, 127, 127);
+}
+
+button{
+
+    cursor: pointer;
+    width: 10rem;
+    height: 40px;
+    border-radius: 15cap;
+    background-color: rgb(194, 194, 255);
+    font-size: 1rem;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0 1px 8px 0 black;
+   
+}

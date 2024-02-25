@@ -1,23 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-body{
-
-background-color: aquamarine;
-
-}
-
-    </style>
-
-</head>
-<body>
-     
-<script>
-    
    var n1 = window.prompt("quantas horas trabalha por dia?")
    var n2 = window.prompt("quanto ganha por hora?")
    var n3 = window.prompt("quanto dias por mes?")
@@ -30,8 +10,3 @@ background-color: aquamarine;
   document.write("   ganho por hora: " + n2 + " EUR/BRL | ")
   document.write("   dias trabalhado: " + n3 + " dias | ")
   document.write("   seu salario: " + salario + " | ")
-
-</script>
-
-</body>
-</html>

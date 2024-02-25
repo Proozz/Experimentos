@@ -1,0 +1,40 @@
+head{
+
+    border: 10px;
+    background-color: black;
+    
+    }
+    
+body{
+    border: 10px black;
+    background-color: rgb(29, 28, 28);
+    max-width: 470px;
+    margin: auto;
+    position: relative;
+    transform: translateY(15%); 
+    
+    }
+    
+    
+    
+button{
+    background-color: rgb(113, 113, 172);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+    }
+    
+textarea{
+    margin: 25px;
+    box-shadow: 0 1px 100px 0 rgba(84, 3, 121, 0.795), 0 1px 100px 0 rgb(18, 9, 143);
+    resize: none;
+        
+    }
+    

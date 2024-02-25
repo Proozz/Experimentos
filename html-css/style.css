@@ -1,0 +1,46 @@
+body{
+    background-color: aquamarine;
+
+    }
+
+div.animais {
+    text-align: center;
+    background-color: rgb(203, 181, 181);    
+    position: relative;
+    left: 850px;
+    height:auto;
+    width: 200px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+
+    }
+
+div.animais.hover{
+    width: 500px; right: 500px;
+
+    }
+    
+div.gallery {
+    display: flex;
+    overflow: hidden;
+    margin: 5px;
+    border: 2px solid #000000;
+    width: 180px;
+    height: 180px;
+    background: rgb(217, 108, 108);
+    transition:  width 1s, height 1s;
+
+    }
+
+div.gallery:hover {
+    border: 1px solid #fff1f1;
+    width: 600px;
+
+    }
+
+div.desc{
+    font-size: 20px;
+    font-style: oblique;
+    
+    } 
